@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet" type="text/css">
+  <link href="../css/contact.css" rel="stylesheet">
+</head>
+
+<center>
+
+<a href="default.htm">
+  <img src="../images/smc-logo.png" width="10%" alt="SMC-Logo" style="padding-top: 2em"/> <!-- style="padding: 20px -->
+</a>
+
+<p></p>
+
+<ul>
+  <li><a href="../default.htm">HOME</a></li>
+  <li><a href="projects.htm">PROJECTS</a></li>
+  <li><a href="team.htm">TEAM</a></li>
+  <li><a href="blog.htm">BLOG</a></li>
+  <li><a href="gallery.htm">GALLERY</a></li>
+  <li><a href="sponsors.htm">SPONSORS</a></li>
+  <li><a>CONTACT</a></li>
+</ul>
+<body>
+
+
+<h2>Contact the SMC Robotics Club</h2>
+
+
+    <p>
+      For questions, please use our contact form, or email us at roboticsclub.smc@gmail.com.
+    </p>
+
+<div class="container">
+  <form action="../php/contactform.php" method="post">
+    <input type="text" name="name" placeholder="Your name" required>
+    <input type="text" name="mailFrom" placeholder="Your email address" required>
+    <input type="text" name="subject" placeholder="Subject">
+    <textarea name="message" placeholder="Message" required></textarea>
+    <h6 class="misc">Do not fill this text box:<input type="text" name="url" /></h6>
+    <button type="submit" name="submit">Submit</button>
+  </form>
+</div>
+
+</body>
+</center>
+
+</html>
