@@ -13,6 +13,7 @@
   <img src="../images/SMC-logo.png" width="10%" alt="SMC-Logo" style="padding-top: 2em"/> <!-- style="padding: 20px -->
 </a>
 
+<!-- NEED THIS TO FIX ALIGNMENT OF TOP HEADER... THIS WILL BE FIXED WHEN WE GET OUR LOGO -->
 <p></p>
 
 <ul>
@@ -25,14 +26,16 @@
   <li><a href="contact.htm">CONTACT</a></li>
 </ul>
 
+<body>
   <h2>
     The page you are looking for doesn't exist!
   </h2>
   <h4>
     <p>Would you like to return to <a href="../index.htm">SMC Robotic's homepage</a>?</p>
   </h4>
-</center>
 </body>
+
+</center>
 
 
 </html>
