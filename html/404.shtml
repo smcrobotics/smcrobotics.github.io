@@ -9,14 +9,14 @@
 
 <center>
   
-<a href="default.htm">
+<a href="index.htm">
   <img src="images/smc-logo.png" width="10%" alt="SMC-Logo" style="padding-top: 2em"/> <!-- style="padding: 20px -->
 </a>
 
 <p></p>
 
 <ul>
-  <li><a href="../default.htm">HOME</a></li>
+  <li><a href="../index.htm">HOME</a></li>
   <li><a href="projects.htm">PROJECTS</a></li>
   <li><a href="team.htm">TEAM</a></li>
   <li><a href="blog.htm">BLOG</a></li>
@@ -29,7 +29,7 @@
     The page you are looking for doesn't exist!
   </h2>
   <h4>
-    <p>Would you like to return to <a href="../default.htm">SMC Robotic's homepage</a>?</p>
+    <p>Would you like to return to <a href="../index.htm">SMC Robotic's homepage</a>?</p>
   </h4>
 </center>
 </body>
