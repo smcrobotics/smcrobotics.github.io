@@ -13,7 +13,15 @@ html {
 .column {
   display: table-cell;
   float: left;
-  width: 32%;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.column2 {
+  display: table-cell;
+  float: center;
+  width: 30%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
