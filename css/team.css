@@ -62,3 +62,12 @@ html {
   cursor: pointer;
   width: 100%;
 }
+
+.head-description {
+  width: 75%;
+  font-size: 150%;
+}
+
+#club-photo {
+  display: block;
+}
