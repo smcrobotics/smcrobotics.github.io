@@ -10,6 +10,12 @@
 html {
   box-sizing: border-box;
 }
+
+body {
+  background: url('../images/srce1_pics/team.jpeg') center;
+  background-size: contain;
+}
+
 .column {
   display: table-cell;
   float: left;
@@ -33,14 +39,6 @@ html {
   }
 }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-.container {
-  padding: 0 16px;
-}
-
 .container::after, .row::after {
   content: "";
   clear: both;
@@ -49,6 +47,7 @@ html {
 
 .title {
   color: grey;
+  text-align: center;
 }
 
 .button {
@@ -61,4 +60,8 @@ html {
   text-align: center;
   cursor: pointer;
   width: 100%;
+}
+
+#club-photo {
+  display: block;
 }

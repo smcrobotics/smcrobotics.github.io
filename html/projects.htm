@@ -1,53 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Projects</title>
+  <title>Projects - SMC Robotics Club</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="SMC Robotics Club">
+  <meta name="keywords" content="SMC Robotics Club, SMC Robotics, Santa Monica College Robotics Club, Santa Monica College Robotics Club Engineers, SMC, Santa Monica College, SRC, SRCE, SMC Vex">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet" type="text/css">
-  <link href="../css/default.css" rel="stylesheet">
+  <link href="../css/default.css" rel="stylesheet" type="text/css">
+  <script src="../js/content-visibility-toggle.js"></script>
+  <script src="../js/adaptive-background.js"></script>
 </head>
 
-<center>
-
-<a href="../index.html">
-  <img src="../images/SMC-logo.png" width="10%" alt="SMC-Logo" style="padding-top: 2em"/> <!-- style="padding: 20px -->
-</a>
-
-<!-- NEED THIS TO FIX ALIGNMENT OF TOP HEADER... THIS WILL BE FIXED WHEN WE GET OUR LOGO -->
-<p></p>
-
-<ul>
-  <li><a href="../index.html">HOME</a></li>
-  <li><a>PROJECTS</a></li>
-  <li><a href="team.htm">TEAM</a></li>
-  <!--
-  <li><a href="blog.htm">BLOG</a></li>
-  -->
-  <li><a href="gallery.htm">GALLERY</a></li>
-  <li><a href="sponsors.htm">SPONSORS</a></li>
-  <li><a href="contact.htm">CONTACT</a></li>
-</ul>
 <body>
 
-<h2>VEX U Competition</h2>
-  <!--
-  <p style="text-align: center;">
-    Talk about VEX U Competition
-    <br/>
-    <br/>
-  </p>
-  -->
+<header>
+  <ul id="nav">
+    <li><a href="../index.html">HOME</a></li>
+    <li><a id="current-link" href="projects.htm">PROJECTS</a></li>
+    <li><a href="team.htm">TEAM</a></li>
+    <li><a href="join.htm">JOIN</a></li>
+    <li><a href="outreach.htm">OUTREACH</a></li>
+    <!--
+    <li><a href="html/blog.htm">BLOG</a></li>
+    -->
+    <!--<li><a href="html/gallery.htm">GALLERY</a></li>-->
+    <li><a href="sponsors.htm">SPONSORS</a></li>
+    <li><a href="contact.htm">CONTACT</a></li>
+  </ul>
+</header>
 
-<h2>ROS and Turtlebot</h2>
-  <!--
-  <p style="text-align: center;">
-    Talk about using Turtlebot as a testbed for learning SLAM, sensor fusion, navigation, etc...
-    <br/>
-    <br/>
-  </p>
-  -->
+<div class="main-content">
+  <div>
+    <button class="content-button" onclick="toggleVisibility(0), changebg(0)">
+      VEX U Competition
+    </button>
+    <div class="invisible-content">
+      <p>Each year, our club competes in the <a class="inline-link" onclick="window.open('https://www.roboticseducation.org/vex-u/')">VEX U</a> Robotics competition.</p>
+      <p>We want to show the world that community colleges like us have just as much drive in engineering as other colleges and universities.</p>
+      <p>Learn about our <a class="inline-link" href="join.htm">work</a>.</p>
+    </div>
+  </div>
 
+  <div>
+    <button class="content-button" onclick="toggleVisibility(1), changebg(1)">
+      ROS (Robot Operating System) and Turtlebot
+    </button>
+    <div class="invisible-content">
+      <p>Our students seek to learn outside of the competition.</p>
+      <p>Using ROS as a medium and Turtlebot as a testbed, students learn cutting-edge robotics technologies like SLAM (Simultaneous Localization and Mapping), sensor fusion, navigation, etc.</p>
+      <p>Students drive progress.</p>
+    </div>
+  </div>
+
+  <div>
+    <button class="content-button" onclick="toggleVisibility(2), changebg(2)">
+      CAD
+    </button>
+    <div class="invisible-content">
+      <p>We don't stop at simply purchasing parts from the shelf; we also design our own parts.</p>
+      <p>Using CAD and 3D printers, students fabricate custom robot parts to use in VEX or an independent project.</p>
+    </div>
+  </div>
+
+  <div>
+    <button class="content-button" onclick="toggleVisibility(3), changebg(3)">
+      Your Project
+    </button>
+    <div class="invisible-content">
+      <p>We are always on the lookout for new and exciting projects to pursue.</p>
+      <p>Feel free to <strong><a class="inline-link" href="contact.htm">reach out to us</a></strong>!</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div>
+    <a href="../index.html"><img src="../images/SMC-logo.png" id="smc-logo" alt="SMC-Logo"/></a>
+  </div>
+  <p>SMC Robotics Club</p>
+</footer>
 </body>
-</center>
 
 </html>
