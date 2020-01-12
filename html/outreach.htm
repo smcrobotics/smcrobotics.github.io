@@ -1,10 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>Outreach - SMC Robotics Club</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="SMC Robotics Club">
+    <meta name="keywords" content="SMC Robotics Club, SMC Robotics, Santa Monica College Robotics Club, Santa Monica College Robotics Club Engineers, SMC, Santa Monica College, SRC, SRCE, SMC Vex">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet" type="text/css">
+    <link href="../css/default.css" rel="stylesheet" type="text/css">
+    <script src="../js/content-visibility-toggle.js"></script>
 </head>
 <body>
+<header>
+    <ul id="nav">
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="projects.htm">PROJECTS</a></li>
+        <li><a href="team.htm">TEAM</a></li>
+        <li><a href="join.htm">JOIN</a></li>
+        <li><a id="current-link" href="outreach.htm">OUTREACH</a></li>
+        <!--
+        <li><a href="html/blog.htm">BLOG</a></li>
+        -->
+        <!--<li><a href="html/gallery.htm">GALLERY</a></li>-->
+        <li><a href="sponsors.htm">SPONSORS</a></li>
+        <li><a href="contact.htm">CONTACT</a></li>
+    </ul>
+</header>
+
+<div class="main-content">
+    <div class="sub-content">
+        <button class="content-button" onclick="toggleVisibility(0)">
+            Club Awareness
+        </button>
+        <div class="invisible-content">
+            <p>Clubs can introduce themselves to SMC students during club awareness and club row (which usually occur late September and late October, respectively).</p>
+            <img alt="club awareness" src="../images/club-awareness.png">
+        </div>
+    </div>
+
+    <div class="sub-content">
+        <button class="content-button" onclick="toggleVisibility(1)">
+            STEM Day
+        </button>
+        <div class="invisible-content">
+            <p>STEM Day is an event where STEM (Science, Technology, Engineering, and Mathematics)-related clubs introduce STEM disciplines to visiting children.</p>
+            <img alt="STEM day" src="../images/stem-day.png">
+        </div>
+    </div>
+
+    <div class="sub-content">
+        <button class="content-button" onclick="toggleVisibility(2)">
+            Your Event
+        </button>
+        <div class="invisible-content">
+            <p>Feel free to <a class="inline-link" href="contact.htm">reach out</a> to us:</p>
+            <p>let's make something happen!</p>
+            <img alt="STEM day" src="../images/srce1_pics/IMG_4233.jpeg" style="width: 70%">
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div>
+        <a href="../index.html"><img src="../images/SMC-logo.png" id="smc-logo" alt="SMC-Logo"/></a>
+    </div>
+    <p>SMC Robotics Club</p>
+</footer>
 
 </body>
 </html>

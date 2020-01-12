@@ -1,5 +1,12 @@
 @import "baseline.css";
 
+body {
+  /*background-image: url('../images/contactus.png');*/
+  background-image: url('../images/opendoorc.png');
+  background-position: center;
+  background-size: cover;
+}
+
 p {
   font-size: 20px;
   margin-right: 100px;

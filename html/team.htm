@@ -1,247 +1,167 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <title>Team - SMC Robotics Club</title>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="description" content="SMC Robotics Club">
+  <meta name="keywords" content="SMC Robotics Club, SMC Robotics, Santa Monica College Robotics Club, Santa Monica College Robotics Club Engineers, SMC, Santa Monica College, SRC, SRCE, SMC Vex">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet" type="text/css">
+  <link href="../css/default.css" rel="stylesheet">
+
+  <script src="../js/content-visibility-toggle.js"></script>
   <link href="../css/team.css" rel="stylesheet">
 </head>
 
-
-<center>
-
-<a href="../index.html">
-  <img src="../images/SMC-logo.png" width="10%" alt="SMC-Logo" style="padding-top: 2em"/> <!-- style="padding: 20px -->
-</a>
-
-<!-- NEED THIS TO FIX ALIGNMENT OF TOP HEADER... THIS WILL BE FIXED WHEN WE GET OUR LOGO -->
-<p></p>
-
-<ul>
-  <li><a href="../index.html">HOME</a></li>
-  <!--
-  <li><a href="projects.htm">PROJECTS</a></li>
-  -->
-  <li><a>TEAM</a></li>
-  <!--
-  <li><a href="blog.htm">BLOG</a></li>
-  -->
-  <li><a href="gallery.htm">GALLERY</a></li>
-  <li><a href="sponsors.htm">SPONSORS</a></li>
-  <li><a href="contact.htm">CONTACT</a></li>
-</ul>
-   
-<p class="head-description">
-  The SMC Robotics Club is a robotics club by and for the students of Santa Monica College.
-</p>
-<p class="head-description">
-  We seek to provide community college students with not only the opportunity to participate in exciting and educational robotics projects, but also to form personal and professional relationships with other likeminded students and aspiring engineers.
-</p>
-<p class="head-description">
-  The club was first founded in the early 2000s, but experienced a recent revival by members Ebony Warren and Carlos Salazar.
-</p>
-<p class="head-description">
-  Though the club is only in its second semester since being reinstated, the members are involved in a plethora of projects; they are participating in the VEX U robotics competition, learning how to use the Robot Operating System (ROS) and the Turtlebot3 Burger, using CAD and 3D printers to fabricate custom robot parts, and more.
-</p>
-<!-- <p class="head-description"></p> -->
-  <br/><br/>
-<img src="../images/club-members.JPG" width="80%" alt="Club" id="club-photo"/>
-<br/><br/>
-<h2>
-  SMC Robotics Club Board
-</h2>
-
-</center>
 <body>
-<div class="row">
-  <div class="column">
-  </div>
-  <div class="column">
-    <div class="card">
-      <img src="../images/carlos.jpg" alt="carlos" style="width:100%">
-      <div class="container">
-        <h2>Carlos Davila</h2>
-        <p class="title">
-          <br/>
-          President
-          <br/>
-        </p>
-        <p>Email address:
-          <br/>
-          <a href="mailto:carlosdakk@yahoo.com">carlosdakk@yahoo.com</a>
-        </p>
-      </div>
+<header>
+  <ul id="nav">
+    <li><a href="../index.html">HOME</a></li>
+    <li><a href="projects.htm">PROJECTS</a></li>
+    <li><a id="current-link" href="team.htm">TEAM</a></li>
+    <li><a href="join.htm">JOIN</a></li>
+    <li><a href="outreach.htm">OUTREACH</a></li>
+    <!--
+    <li><a href="html/blog.htm">BLOG</a></li>
+    -->
+    <!--<li><a href="html/gallery.htm">GALLERY</a></li>-->
+    <li><a href="sponsors.htm">SPONSORS</a></li>
+    <li><a href="contact.htm">CONTACT</a></li>
+  </ul>
+</header>
+
+<div class="main-content">
+  <div class="sub-content">
+    <h2 class="content-button" onclick="toggleVisibility(0)">History</h2>
+    <div class="invisible-content">
+      <img src="../images/club-members.JPG" width="100%" alt="Club" id="club-photo"/>
+      <p>The SMC Robotics Club is a robotics club by and for the students of Santa Monica College.</p>
+      <p>The club was first founded in the early 2000s, but experienced a revival during spring 2019 by members Ebony Warren and Carlos Salazar.</p>
+      <p>We seek to provide community college students with not only the opportunity to participate in exciting and educational robotics projects, but also to form personal and professional relationships with other likeminded students and aspiring engineers.</p>
     </div>
   </div>
-  <div class="column">
-    <div class="card">
-      <img src="../images/ebony.jpg" alt="Ebony" style="width:100%">
-      <div class="container">
-        <h2><a href="https://www.linkedin.com/in/ebony-warren">Ebony Warren</a></h2>
-        <p class="title">
-          <br/>
-          Vice President
-          <br/>
-        </p>
-        <p>Email address:
-          <br/>
-          <a href="mailto:ebony.warren.7b@gmail.com">ebony.warren.7b@gmail.com</a>
-        </p>
+  <div class="sub-content">
+    <h2 class="content-button" onclick="toggleVisibility(1)">SMC Robotics Club Board</h2>
+
+    <div class="grid-container-2 invisible-content" style="width: 60%; margin-left: auto; margin-right: auto">
+      <div class="card grid-item">
+        <img src="../images/carlos.jpg" alt="carlos" style="width:100%">
+        <div class="container">
+          <h2>Carlos Davila</h2>
+          <p class="title">President</p>
+          <a class="inline-link" href="mailto:carlosdakk@yahoo.com">carlosdakk@yahoo.com</a>
+        </div>
       </div>
+
+      <div class="card grid-item">
+        <img src="../images/ebony.jpg" alt="Ebony" style="width:100%">
+        <div class="container">
+          <h2><a class="inline-link" href="https://www.linkedin.com/in/ebony-warren">Ebony Warren</a></h2>
+          <p class="title">Vice President</p>
+          <a class="inline-link" href="mailto:ebony.warren.7b@gmail.com">ebony.warren.7b@gmail.com</a>
+        </div>
+      </div>
+
+      <div class="card grid-item">
+        <img src="../images/david.jpg" alt="david" style="width:100%">
+        <div class="container">
+          <h2>David The</h2>
+          <p class="title">ICC Delegate</p>
+          <a class="inline-link" href="mailto:davidfreemanthe@yahoo.com">davidfreemanthe@yahoo.com</a>
+        </div>
+      </div>
+
+      <div class="card grid-item">
+        <img src="../images/ariel.jpg" alt="Ariel" style="width:100%">
+        <div class="container">
+          <h2><a class="inline-link" href="https://github.com/DarthGeek01">Ariel Young</a></h2>
+          <p class="title">Programming Lead</p>
+          <a class="inline-link" href="mailto:young_ariel_rex@student.smc.edu">young_ariel_rex@student.smc.edu</a>
+        </div>
+      </div>
+
+      <div class="card grid-item">
+        <img src="../images/nashir.jpg" alt="Nashir" style="width:100%">
+        <div class="container">
+          <h2><a class="inline-link" href="https://www.nashirj.com/">Nashir Janmohamed</a></h2>
+          <p class="title">Operations Manager & Webmaster</p>
+          <a class="inline-link" href="mailto:nashirj@icloud.com">nashirj@icloud.com</a>
+        </div>
+      </div>
+
+      <div class="card grid-item">
+        <img src="../images/jewook.jpg" alt="Jewook" style="width:100%">
+        <div class="container">
+          <h2>Jewook Ryu</h2>
+          <p class="title">Programming, Web Development, Outreach & Fundraising, </p>
+          <a class="inline-link" href="mailto:bishop_michael@smc.edu">ryu_jewook@student.smc.edu</a>
+        </div>
+      </div>
+
+      <div class="card grid-item">
+        <img src="../images/bishop.jpg" alt="Scott" style="width:100%">
+        <div class="container">
+          <h2><a class="inline-link" href="https://homepage.smc.edu/bishop_scott/">Scott Bishop</a></h2>
+          <p class="title">Club Advisor</p>
+          <a class="inline-link" href="mailto:bishop_michael@smc.edu">bishop_michael@smc.edu</a>
+        </div>
+      </div>
+
     </div>
   </div>
-  <div class="column">
-  </div>
-  <div class="column">
-    <div class="card">
-      <img src="../images/david.jpg" alt="david" style="width:100%">
-      <div class="container">
-        <h2>David The</h2>
-        <p class="title">
-          <br/>
-          ICC Delegate
-          <br/>
-        </p>
-        <p>Email address:
-          <br/>
-          <a href="mailto:davidfreemanthe@yahoo.com">davidfreemanthe@yahoo.com</a>
-        </p>
+
+  <div class="sub-content">
+    <h1 class="content-button" onclick="toggleVisibility(2)">Club Members 2019-2020</h1>
+
+    <div class="invisible-content horizontal-flex" style="width: 100%">
+      <div>
+        <h2>Programming Subteam</h2>
+        <div class="vertical-flex">
+          <p>Ariel Young (Lead)</p>
+          <p>David The</p>
+          <p>Zain Farhat</p>
+          <p>Min Kim</p>
+          <p>Alex Luu</p>
+          <p>Ollin Ramirez</p>
+          <p>John Salinas</p>
+          <p>Ousamma Najar</p>
+          <p>Jewook Ryu</p>
+        </div>
+      </div>
+
+      <div>
+        <h2>Interdisciplinary</h2>
+        <div class="vertical-flex">
+          <p>Nashir Janmohamed</p>
+          <p>Carlos Davila</p>
+        </div>
+      </div>
+
+      <div>
+        <h2>Design Subteam</h2>
+        <div class="vertical-flex">
+          <p>Jim Pickrell (CAD Lead)</p>
+          <p>Ebony Warren</p>
+          <p>Eduardo Lujano</p>
+          <p>Nahom Seifu</p>
+          <p>Sergio Guerra</p>
+          <p>Cameron Cho</p>
+          <p>Francisco Casiano</p>
+          <p>Robert Villanueva</p>
+          <p>Viviana Garzon</p>
+          <p>Beverlee Turner</p>
+          <p>Benjamin Schmitt</p>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="column">
-    <div class="card">
-      <img src="../images/ariel.jpg" alt="Ariel" style="width:100%">
-      <div class="container">
-        <h2><a href="https://github.com/DarthGeek01">Ariel Young</a></h2>
-        <p class="title">
-          <br/>
-          Outreach and Fundraising Lead
-          <br/>
-        </p>
-        <p>Email address:
-          <br/>
-          <a href="mailto:young_ariel_rex@student.smc.edu">young_ariel_rex@student.smc.edu</a>
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="column">
-  </div>
-  <div class="column">
-    <div class="card">
-      <img src="../images/nashir.jpg" alt="Nashir" style="width:100%">
-      <div class="container">
-        <h2><a href="https://www.nashirj.com/">Nashir Janmohamed</a></h2>
-        <p class="title">
-          <br/>
-          Operations Manager & Webmaster
-          <br/>
-        </p>
-        <p>Email address:
-          <br/>
-          <a href="mailto:nashirj@icloud.com">nashirj@icloud.com</a>
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="column">
-    <div class="card">
-      <img src="../images/bishop.jpg" alt="img-not-found" style="width:100%">
-      <div class="container">
-        <h2><a href="https://homepage.smc.edu/bishop_scott/">Scott Bishop</a></h2>
-        <p class="title">
-          <br/>
-          Club Advisor
-          <br/>
-        </p>
-        <p>Email address:
-          <br/>
-          <a href="mailto:bishop_michael@smc.edu">bishop_michael@smc.edu</a>
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="column">
   </div>
 </div>
 
-<center>
-
-<h2 style="text-orientation: center">
-  Club Members 2019-2020
-</h2>
-<div class="row">
-  <div class="column2">
-    <h2>Programming Subteam</h2>
-    <p>
-      Ariel Young (Lead)
-      <br/><br/>
-      David The
-      <br/><br/>
-      Zain Farhat
-      <br/><br/>
-      Min Kim
-      <br/><br/>
-      Alex Luu
-      <br/><br/>
-      Ollin Ramirez
-      <br/><br/>
-      John Salinas
-      <br/><br/>
-      Ousamma Najar
-      <br/><br/>
-      Jewook Ryu
-      <br/><br/>
-    </p>
+<footer>
+  <div>
+    <a href="../index.html"><img src="../images/SMC-logo.png" id="smc-logo" alt="SMC-Logo"/></a>
   </div>
-  <div class="column2">
-    <h2>Interdisciplinary</h2>
-      Nashir Janmohamed
-      <br/><br/>
-      Carlos Davila
-      <br/><br/>
-  </div>
-  <div class="column2">
-    <h2>Design Subteam</h2>
-    <p>
-      Jim Pickrell (CAD Lead)
-      <br/><br/>
-      Ebony Warren
-      <br/><br/>
-      Eduardo Lujano
-      <br/><br/>
-      Nahom Seifu
-      <br/><br/>
-      Sergio Guerra
-      <br/><br/>
-      Cameron Cho
-      <br/><br/>
-      Francisco Casiano
-      <br/><br/>
-      Robert Villanueva
-      <br/><br/>
-      Viviana Garzon
-      <br/><br/>
-      Beverlee Turner
-      <br/><br/>
-      Benjamin Schmitt
-    </p>
-  </div>
-</div>
-
-<!--
-
-<h2 style="text-orientation: center">
-  Alumni
-</h2>
-<p>
-  List people who used to be in the club here with their graduation date/what they're up to now?
-</p>
-
--->
-
-</center>
-
+  <p>SMC Robotics Club</p>
+</footer>
 </body>
 </html>
