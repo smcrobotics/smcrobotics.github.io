@@ -1,7 +1,76 @@
 body {
-    background: url("../images/demo-bot-2.png") center;
+    position: fixed;
+    right: 0;
+    bottom: 0;
 }
 
 #cover-text {
     background: whitesmoke;
+    opacity: 70%;
+}
+
+#titleVideo {
+    float: left;
+    right: 0;
+    bottom: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.main-content {
+    position: absolute;
+    margin: 20% 10% !important;
+    text-align: center;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 1690px) {
+    .main-content {
+        margin: 18% 10% !important;
+    }
+}
+
+@media only screen and (max-width: 1495px) {
+    .main-content {
+        margin: 14% 10% !important;
+    }
+}
+
+@media only screen and (max-width: 1325px) {
+    #cover-text {
+        font-size: 45px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    #cover-text {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 1205px) {
+    .content-button {
+        width: 35%;
+    }
+    footer {
+        justify-content: space-around;
+    }
+    p {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1030px) {
+    .content-button {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    p {
+        text-align: center;
+    }
+    .content-button {
+        width: 40%;
+    }
 }

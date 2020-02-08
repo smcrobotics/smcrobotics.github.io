@@ -1,8 +1,7 @@
 @import "baseline.css";
 
 body {
-  /*background-image: url('../images/contactus.png');*/
-  background-image: url('../images/opendoorc.png');
+  background-image: url('../images/backgrounds/opendoorc.jpg');
   background-position: center;
   background-size: cover;
 }

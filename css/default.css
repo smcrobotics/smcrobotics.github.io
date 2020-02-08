@@ -1,8 +1,13 @@
 @import "baseline.css";
 
+* {
+	box-sizing: border-box !important;
+}
+
 body {
 	text-align: center;
 	margin: 0;
+	width: 100vw;
 }
 
 p {
@@ -55,7 +60,7 @@ footer > p {
 
 .main-content {
 	width: 80%;
-	height: 60%;
+	/*height: 60%;*/
 	margin: 10% auto 20%;
 }
 
